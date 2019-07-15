@@ -12,12 +12,14 @@
     
     
     <item>
-      <title>Blog</title>
+      <title>C&#43;&#43; string</title>
       <link>https://asker-qiao.github.io/post/blog/</link>
       <pubDate>Wed, 10 Jul 2019 09:00:57 +0800</pubDate>
       
       <guid>https://asker-qiao.github.io/post/blog/</guid>
-      <description>This is my first blog! Thank you!</description>
+      <description>###是C++标准定义的头文件. 在 &amp;lt;string&amp;gt; 文件中包含#include兼容C语言字符操作
+// 头文件 #include &amp;lt;string&amp;gt; using std::string using std::wstring using namespace std  ###构造函数
+string strs //生成空字符串 string s(str) //生成字符串str的复制品 string s(str, stridx) //将字符串str中始于stridx的部分作为构造函数的初值 string s(str, strbegin, strlen) //将字符串str中始于strbegin、长度为strlen的部分作为字符串初值 string s(cstr) //以C_string类型cstr作为字符串s的初值 string s(cstr,char_len) //以C_string类型cstr的前char_len个字符串作为字符串s的初值 strings(num, c) //生成一个字符串，包含num个c字符 strings(strs, beg, end) //以区间[beg, end]内的字符作为字符串s的初值  ##操作符 |操作符| |:&amp;mdash;:| | == | | &amp;gt; | | &amp;lt; | | &amp;lt;= | | &amp;gt;= | | != | | + | | += | | [ ] |</description>
     </item>
     
   </channel>
