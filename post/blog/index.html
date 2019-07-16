@@ -12,14 +12,12 @@
     
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="C&#43;&#43; string"/>
-<meta name="twitter:description" content="###是C&#43;&#43;标准定义的头文件. 在 &lt;string&gt; 文件中包含#include兼容C语言字符操作
-// 头文件 #include &lt;string&gt; using std::string using std::wstring using namespace std  ###构造函数
-string strs //生成空字符串 string s(str) //生成字符串str的复制品 string s(str, stridx) //将字符串str中始于stridx的部分作为构造函数的初值 string s(str, strbegin, strlen) //将字符串str中始于strbegin、长度为strlen的部分作为字符串初值 string s(cstr) //以C_string类型cstr作为字符串s的初值 string s(cstr,char_len) //以C_string类型cstr的前char_len个字符串作为字符串s的初值 strings(num, c) //生成一个字符串，包含num个c字符 strings(strs, beg, end) //以区间[beg, end]内的字符作为字符串s的初值  ##操作符 |操作符| |:&mdash;:| | == | | &gt; | | &lt; | | &lt;= | | &gt;= | | != | | &#43; | | &#43;= | | [ ] |"/>
+<meta name="twitter:description" content="&lt;string&gt;是C&#43;&#43;标准定义的头文件 在 &lt;string&gt; 文件中包含#include兼容C语言字符操作
+// 头文件 #include &lt;string&gt; using std::string using std::wstring using namespace std  构造函数 string strs //生成空字符串 string s(str) //生成字符串str的复制品 string s(str, stridx) //将字符串str中始于stridx的部分作为构造函数的初值 string s(str, strbegin, strlen) //将字符串str中始于strbegin、长度为strlen的部分作为字符串初值 string s(cstr) //以C_string类型cstr作为字符串s的初值 string s(cstr,char_len) //以C_string类型cstr的前char_len个字符串作为字符串s的初值 strings(num, c) //生成一个字符串，包含num个c字符 strings(strs, beg, end) //以区间[beg, end]内的字符作为字符串s的初值  操作符    操作符     ==   &gt;   &lt;   &lt;=   &gt;=   !"/>
 
     <meta property="og:title" content="C&#43;&#43; string" />
-<meta property="og:description" content="###是C&#43;&#43;标准定义的头文件. 在 &lt;string&gt; 文件中包含#include兼容C语言字符操作
-// 头文件 #include &lt;string&gt; using std::string using std::wstring using namespace std  ###构造函数
-string strs //生成空字符串 string s(str) //生成字符串str的复制品 string s(str, stridx) //将字符串str中始于stridx的部分作为构造函数的初值 string s(str, strbegin, strlen) //将字符串str中始于strbegin、长度为strlen的部分作为字符串初值 string s(cstr) //以C_string类型cstr作为字符串s的初值 string s(cstr,char_len) //以C_string类型cstr的前char_len个字符串作为字符串s的初值 strings(num, c) //生成一个字符串，包含num个c字符 strings(strs, beg, end) //以区间[beg, end]内的字符作为字符串s的初值  ##操作符 |操作符| |:&mdash;:| | == | | &gt; | | &lt; | | &lt;= | | &gt;= | | != | | &#43; | | &#43;= | | [ ] |" />
+<meta property="og:description" content="&lt;string&gt;是C&#43;&#43;标准定义的头文件 在 &lt;string&gt; 文件中包含#include兼容C语言字符操作
+// 头文件 #include &lt;string&gt; using std::string using std::wstring using namespace std  构造函数 string strs //生成空字符串 string s(str) //生成字符串str的复制品 string s(str, stridx) //将字符串str中始于stridx的部分作为构造函数的初值 string s(str, strbegin, strlen) //将字符串str中始于strbegin、长度为strlen的部分作为字符串初值 string s(cstr) //以C_string类型cstr作为字符串s的初值 string s(cstr,char_len) //以C_string类型cstr的前char_len个字符串作为字符串s的初值 strings(num, c) //生成一个字符串，包含num个c字符 strings(strs, beg, end) //以区间[beg, end]内的字符作为字符串s的初值  操作符    操作符     ==   &gt;   &lt;   &lt;=   &gt;=   !" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://asker-qiao.github.io/post/blog/" />
 <meta property="article:published_time" content="2019-07-10T09:00:57&#43;08:00"/>
@@ -60,8 +58,9 @@ string strs //生成空字符串 string s(str) //生成字符串str的复制品 
     <div class="post-content">
       
 
-<p>###<string>是C++标准定义的头文件.
-在 &lt;string&gt; 文件中包含#include<string.h>兼容C语言字符操作</p>
+<h3 id="string-是c-标准定义的头文件">&lt;string&gt;是C++标准定义的头文件</h3>
+
+<p><font color=blue>在 &lt;string&gt; 文件中包含#include<string.h>兼容C语言字符操作</color></p>
 
 <pre><code class="language-C++">// 头文件
 #include &lt;string&gt;
@@ -70,7 +69,7 @@ using std::wstring
 using namespace std
 </code></pre>
 
-<p>###构造函数</p>
+<h3 id="构造函数">构造函数</h3>
 
 <pre><code class="language-C++">string strs //生成空字符串
 string s(str) //生成字符串str的复制品
@@ -82,21 +81,57 @@ strings(num, c) //生成一个字符串，包含num个c字符
 strings(strs, beg, end)    //以区间[beg, end]内的字符作为字符串s的初值
 </code></pre>
 
-<p>##操作符
-|操作符|
-|:&mdash;:|
-| ==  |
-|  &gt;  |
-| &lt;   |
-| &lt;=  |
-| &gt;=  |
-| !=  |
-|  +  |
-| +=  |
-| [ ] |</p>
+<h2 id="操作符">操作符</h2>
 
-<p>###添加字符串函数
-####append()</p>
+<table>
+<thead>
+<tr>
+<th align="center">操作符</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">==</td>
+</tr>
+
+<tr>
+<td align="center">&gt;</td>
+</tr>
+
+<tr>
+<td align="center">&lt;</td>
+</tr>
+
+<tr>
+<td align="center">&lt;=</td>
+</tr>
+
+<tr>
+<td align="center">&gt;=</td>
+</tr>
+
+<tr>
+<td align="center">!=</td>
+</tr>
+
+<tr>
+<td align="center">+</td>
+</tr>
+
+<tr>
+<td align="center">+=</td>
+</tr>
+
+<tr>
+<td align="center">[ ]</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="添加字符串函数">添加字符串函数</h3>
+
+<h4 id="append">append()</h4>
 
 <pre><code class="language-C++">  basic_string &amp;append( const basic_string &amp;str );
   basic_string &amp;append( const char *str );
@@ -111,7 +146,7 @@ strings(strs, beg, end)    //以区间[beg, end]内的字符作为字符串s的�
 <li></li>
 </ul>
 
-<p>##赋值函数(assign)</p>
+<h2 id="赋值函数-assign">赋值函数(assign)</h2>
 
 <pre><code class="language-C++"> basic_string &amp;assign( const basic_string &amp;str );
   basic_string &amp;assign( const char *str );
@@ -154,7 +189,7 @@ strings(strs, beg, end)    //以区间[beg, end]内的字符作为字符串s的�
 
 <p>显示字符 &lsquo;C&rsquo;.</p>
 
-<p>##begin</p>
+<h2 id="begin">begin</h2>
 
 <p>语法:</p>
 
@@ -174,7 +209,7 @@ c_str</p>
 
 <p>c_str()函数返回一个指向正规C字符串的指针, 内容与本字符串相同.</p>
 
-<p>##容量(capacity)</p>
+<h2 id="容量-capacity">容量(capacity)</h2>
 
 <ul>
 <li><p>语法:</p>
@@ -184,7 +219,7 @@ c_str</p>
 
 <p>capacity()函数返回在重新申请更多的空间前字符串可以容纳的字符数. 这个数字至少与 size()一样大.</p>
 
-<p>##比较(compare)</p>
+<h2 id="比较-compare">比较(compare)</h2>
 
 <p>语法:</p>
 
@@ -213,14 +248,16 @@ int compare( size_type index, size_type length, const char *str, size_type lengt
 <li>比较自己的子串和str的子串，其中str的子串以索引0开始，长度为length2，自己的子串以index开始，长度为length</li>
 </ul>
 
-<p>##拷贝(copy)
-语法:</p>
+<h2 id="拷贝-copy">拷贝(copy)</h2>
+
+<p>语法:</p>
 
 <pre><code class="language-C++">  size_type copy( char *str, size_type num, size_type index );
 </code></pre>
 
-<p>copy()函数拷贝自己的num个字符到str中（从索引index开始）。返回值是拷贝的字符数
-##data</p>
+<p>copy()函数拷贝自己的num个字符到str中（从索引index开始）。返回值是拷贝的字符数</p>
+
+<h2 id="data">data</h2>
 
 <p>语法:</p>
 
@@ -230,8 +267,9 @@ int compare( size_type index, size_type length, const char *str, size_type lengt
 <p>data()函数返回指向自己的第一个字符的指针.</p>
 
 <p>相关主题:
-c_str()
-##empty</p>
+c_str()</p>
+
+<h2 id="empty">empty</h2>
 
 <p>语法:</p>
 
@@ -247,8 +285,9 @@ end</p>
 <p>end()函数返回一个迭代器，指向字符串的末尾(最后一个字符的下一个位置).</p>
 
 <p>相关主题:
-begin()
-##删除(erase)</p>
+begin()</p>
+
+<h2 id="删除-erase">删除(erase)</h2>
 
 <p>语法:</p>
 
@@ -286,7 +325,7 @@ Now the string is 'So, you like donuts, eh?'
 Now the string is ''
 </code></pre>
 
-<p>##查找(find)</p>
+<h2 id="查找-find">查找(find)</h2>
 
 <p>语法:</p>
 
@@ -312,7 +351,7 @@ else
   cout &lt;&lt; &quot;Didn't find Omega&quot; &lt;&lt; endl;
 </code></pre>
 
-<p>##find_first_of</p>
+<h2 id="find-first-of">find_first_of</h2>
 
 <p>语法:</p>
 
@@ -321,7 +360,7 @@ else
   size_type find_first_of( const char *str, size_type index, size_type num );
   size_type find_first_of( char ch, size_type index = 0 );</p>
 
-<p>##find_first_of()函数:</p>
+<h2 id="find-first-of-函数">find_first_of()函数:</h2>
 
 <pre><code>查找在字符串中第一个与str中的某个字符匹配的字符，返回它的位置。搜索从index开始，如果没找到就返回string::npos
 查找在字符串中第一个与str中的某个字符匹配的字符，返回它的位置。搜索从index开始，最多搜索num个字符。如果没找到就返回string::npos，
@@ -339,7 +378,7 @@ find_first_not_of</p>
   size_type find_first_not_of( const char *str, size_type index, size_type num );
   size_type find_first_not_of( char ch, size_type index = 0 );</p>
 
-<p>##find_first_not_of()函数:</p>
+<h2 id="find-first-not-of-函数">find_first_not_of()函数:</h2>
 
 <pre><code>在字符串中查找第一个与str中的字符都不匹配的字符，返回它的位置。搜索从index开始。如果没找到就返回string::nops
 在字符串中查找第一个与str中的字符都不匹配的字符，返回它的位置。搜索从index开始，最多查找num个字符。如果没找到就返回string::nops
@@ -357,7 +396,7 @@ find_last_of</p>
   size_type find_last_of( const char *str, size_type index, size_type num );
   size_type find_last_of( char ch, size_type index = npos );</p>
 
-<p>##find_last_of()函数:</p>
+<h2 id="find-last-of-函数">find_last_of()函数:</h2>
 
 <pre><code>在字符串中查找最后一个与str中的某个字符匹配的字符，返回它的位置。搜索从index开始。如果没找到就返回string::nops
 在字符串中查找最后一个与str中的某个字符匹配的字符，返回它的位置。搜索从index开始，最多搜索num个字符。如果没找到就返回string::nops
@@ -375,7 +414,7 @@ find_last_not_of</p>
   size_type find_last_not_of( const char *str, size_type index, size_type num );
   size_type find_last_not_of( char ch, size_type index = npos );</p>
 
-<p>##find_last_not_of()函数:</p>
+<h2 id="find-last-not-of-函数">find_last_not_of()函数:</h2>
 
 <pre><code>在字符串中查找最后一个与str中的字符都不匹配的字符，返回它的位置。搜索从index开始。如果没找到就返回string::nops
 在字符串中查找最后一个与str中的字符都不匹配的字符，返回它的位置。搜索从index开始，最多查找num个字符如果没找到就返回string::nops
@@ -383,15 +422,17 @@ find_last_not_of</p>
 </code></pre>
 
 <p>相关主题:
-find()
-##get_allocator</p>
+find()</p>
+
+<h2 id="get-allocator">get_allocator</h2>
 
 <p>语法:</p>
 
 <p>allocator_type get_allocator();</p>
 
-<p>get_allocator()函数返回本字符串的配置器.
-##插入(insert)</p>
+<p>get_allocator()函数返回本字符串的配置器.</p>
+
+<h2 id="插入-insert">插入(insert)</h2>
 
 <p>语法:</p>
 
@@ -404,7 +445,7 @@ find()
   void insert( iterator i, size_type num, const char &amp;ch );
   void insert( iterator i, iterator start, iterator end );</p>
 
-<p>####insert()函数的功能非常多:</p>
+<h4 id="insert-函数的功能非常多">insert()函数的功能非常多:</h4>
 
 <pre><code>在迭代器i表示的位置前面插入一个字符ch,
 在字符串的位置index插入字符串str,
@@ -416,8 +457,9 @@ find()
 </code></pre>
 
 <p>相关主题:
-replace()
-##长度(length)</p>
+replace()</p>
+
+<h2 id="长度-length">长度(length)</h2>
 
 <p>语法:</p>
 
@@ -428,15 +470,17 @@ replace()
 </ul>
 
 <p>相关主题:
-size()
-##max_size</p>
+size()</p>
+
+<h2 id="max-size">max_size</h2>
 
 <p>语法:</p>
 
 <p>size_type max_size();</p>
 
-<p>max_size()函数返回字符串能保存的最大字符数。
-##rbegin</p>
+<p>max_size()函数返回字符串能保存的最大字符数。</p>
+
+<h2 id="rbegin">rbegin</h2>
 
 <p>语法:</p>
 
@@ -467,7 +511,7 @@ rbegin()
   basic_string &amp;replace( iterator start, iterator end, const char *str, size_type num );
   basic_string &amp;replace( iterator start, iterator end, size_type num, char ch );</p>
 
-<p>##replace()函数:</p>
+<h2 id="replace-函数">replace()函数:</h2>
 
 <pre><code>用str中的num个字符替换本字符串中的字符,从index开始
 用str中的num2个字符（从index2开始）替换本字符串中的字符，从index1开始，最多num1个字符
@@ -489,9 +533,11 @@ s.replace( 32, s2.length(), s2 );
 cout &lt;&lt; s &lt;&lt; endl;
 </code></pre>
 
-<p>相关主题:
-##insert()
-保留空间(reserve)</p>
+<p>相关主题:</p>
+
+<h2 id="insert">insert()</h2>
+
+<p>保留空间(reserve)</p>
 
 <p>语法:</p>
 
@@ -518,7 +564,7 @@ rfind</p>
   size_type rfind( const char *str, size_type index, size_type num );
   size_type rfind( char ch, size_type index );</p>
 
-<p>##rfind()函数:</p>
+<h2 id="rfind-函数">rfind()函数:</h2>
 
 <pre><code>返回最后一个与str中的某个字符匹配的字符，从index开始查找。如果没找到就返回string::npos
 返回最后一个与str中的某个字符匹配的字符，从index开始查找,最多查找num个字符。如果没找到就返回string::npos
@@ -538,8 +584,9 @@ cout &lt;&lt; &quot;The word breath is at index &quot; &lt;&lt; loc &lt;&lt; end
 </code></pre>
 
 <p>相关主题:
-find()
-##size</p>
+find()</p>
+
+<h2 id="size">size</h2>
 
 <p>语法:</p>
 
@@ -573,7 +620,7 @@ cout &lt;&lt; &quot;The substring is &quot; &lt;&lt; sub &lt;&lt; endl;
 The substring is a failure to communicate
 </code></pre>
 
-<p>##交换(swap)</p>
+<h2 id="交换-swap">交换(swap)</h2>
 
 <p>语法:</p>
 
